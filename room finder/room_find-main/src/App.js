@@ -5,7 +5,7 @@ function Head(){
   return (
     <div>
 
-      {/* <h1>My name is kashif</h1>
+      {/* <h1>My name is Faisal Khalil</h1>
        */ }
       <img src={logo} alt="Logo" />
     </div>
@@ -25,7 +25,7 @@ function Buttons(){
     <>
     {/* <input></input> */}
     <button className="btn" >Sign Up</button>
-    <button>Log In</button>
+    <button className="btn1">Log In</button>
     </>
   );
 }
@@ -98,7 +98,84 @@ function Budget(){
     </>
   );
 }
+function Lowerbody()
+{
+  
+}
 function App() {
+  const list=[
+    { "location":"zakir nagar",
+       "gender":"male", 
+      "apartment":"1BHK",
+      "parking":"2 wheeler",
+      "number of people":1,
+       "budget":6000
+          },
+    { "location":"batla house",
+       "gender":"female", 
+      "apartment":"2BHK",
+      "parking":"4 wheeler",
+      "number of people":4,
+       "budget":9000
+          },
+    { "location":"jauhri farm",
+       "gender":"female", 
+      "apartment":"1BHK",
+      "parking":"2 wheeler",
+      "number of people":2,
+       "budget":3000
+          },
+    { "location":"batla house",
+       "gender":"male", 
+      "apartment":"1BHK",
+      "parking":"2 wheeler",
+      "number of people":1,
+       "budget":6000
+          },
+    { "location":"shaheen bagh",
+       "gender":"female", 
+      "apartment":"1BHK",
+      "parking":"2 wheeler",
+      "number of people":1,
+       "budget":15000
+          },
+    { "location":"zakir nagar",
+       "gender":"male", 
+      "apartment":"1 room",
+      "parking":"2 wheeler",
+      "number of people":1,
+       "budget":7000
+          },
+    { "location":"batla house",
+       "gender":"female", 
+      "apartment":"2BHK",
+      "parking":"2 wheeler",
+      "number of people":3,
+       "budget":11000
+          },
+    { "location":"jauhri farm",
+       "gender":"female", 
+      "apartment":"1BHK",
+      "parking":"2 wheeler",
+      "number of people":4,
+       "budget":6000
+          },
+    { "location":"batla house",
+       "gender":"male", 
+      "apartment":"1BHK",
+      "parking":"2 wheeler",
+      "number of people":1,
+       "budget":2000
+          },
+    { "location":"shaheen bagh",
+       "gender":"female", 
+      "apartment":"1 room",
+      "parking":"2 wheeler",
+      "number of people":1,
+       "budget":10000
+          }
+  
+  ];
   return (
     <div>
       <header className="App-header">
